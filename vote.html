@@ -226,7 +226,13 @@ const showToggle = document.querySelector('.show-toggle')
 const showNav = document.querySelector('.menu')
 
 showToggle.addEventListener('click', function() {
-    showNav.classList.toggle('showy');
+  if(showNav.classList.contains("showy")) {
+    showNav.classList.remove('showy');
+    showToggle.style.top = "20px"
+  } else {
+    showNav.classList.add('showy');
+    showToggle.style.top = "0"
+  }
 })
     </script>
 </body>
