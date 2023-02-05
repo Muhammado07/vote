@@ -137,7 +137,7 @@ nav ul {
   }
   .main-text h1,
   #demo {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     color: var(--third-color);
     padding: 20px 0;
@@ -333,15 +333,22 @@ nav ul {
 .how-vote .voty {
     margin-top: 40px;
 }
-.how-vote .voty a {
+.how-vote .voty a, .join-back {
     background: var(--first-color);
     color: var(--third-color);
     padding: 15px 30px;
     font-size: 22px;
     border-radius: 4px;
     transition: all 0.3s ease-in-out;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
-.how-vote .voty a:hover {
+.join-back {
+  margin-top: 20px;
+}
+.how-vote .voty a:hover,
+.join-back:hover {
     opacity: 0.9;
 }
 .footer {
@@ -415,14 +422,13 @@ input[type="number"] {
 .success-message {
   text-align: right;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
   flex-direction: column;
   color: var(--second-color);
 }
-.success-message h2 {
-  font-size: 42px;
-  margin-bottom: 5px;
+.success-message h3 {
+  font-size: 32px;
 }
 .show-toggle {
   display: none;
@@ -584,7 +590,6 @@ nav ul li:last-child {
   width: 30%;
   margin-right: 6px;
 }
-    
 }
 @media screen and (max-width:400px) {
     .how-vote .steps .step span {
@@ -604,5 +609,10 @@ nav ul li:last-child {
     .main-text a {
       font-size: 18px;
       padding: 10px 20px;
+    }
+    .success-message h3 {
+      font-size: 24px;
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
 }
