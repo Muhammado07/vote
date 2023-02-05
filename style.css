@@ -202,7 +202,7 @@ nav ul {
   }
   #next {
     background-color: #22232e;
-    height: 860px;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: flex-start;
@@ -268,6 +268,7 @@ nav ul {
     line-height: 40px;
     color: var(--first-color);
     text-align: center;
+    width: 30%;
 }
 #next .more-details .img {
   width: 80%;
@@ -443,7 +444,8 @@ input[type="number"] {
     height: 100%;
 }
 }
-@media screen and (max-width:767px) {
+
+@media screen and (max-width:991px) {
     .vote-header .navbar .nav a {
         font-size: 14px;
         margin-left: 24px;
@@ -451,6 +453,9 @@ input[type="number"] {
     .main-text img {
         width: 120px;
         margin-bottom: 16px;
+    }
+    .count-down {
+      width: 100%;
     }
     .main-text p,
     .count-down h2 {
@@ -512,10 +517,10 @@ input[type="number"] {
       width: 90%;
     }
     .count-down {
-      transform: translate(3%, -32%);
-      margin-right: 5%;
+      transform: translate(5%, -32%);
       text-align: right;
       top: 83%;
+      width: 90%;
     }
     .how-vote .voty {
         margin: 40px 0;
@@ -585,5 +590,15 @@ input[type="number"] {
     }
     .how-vote .steps .step p {
         font-size: 12px;
+    }
+    .main-text p, .count-down h2, .count-down .p2, .how-vote h3 {
+      font-size: 14px;
+    }
+    .main-text h1, #demo, .how-vote .infoy h2 {
+      font-size: 22px;
+    }
+    .main-text a {
+      font-size: 18px;
+      padding: 10px 20px;
     }
 }
