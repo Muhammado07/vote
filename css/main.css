@@ -10405,7 +10405,6 @@ ul {
   padding: 30px;
   border-radius: 10px;
   margin: 20px auto;
-  width: fit-content;
 }
 .count-down h2,
 .count-down p {
@@ -10413,6 +10412,7 @@ ul {
 }
 .count-down #demo {
   padding: 20px 0 0;
+  font-size: 54px;
 }
 .future {
   width: 300px;
@@ -10565,10 +10565,7 @@ input[type="number"] {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  color: var(--second-color);
-}
-.success-message h3 {
-  font-size: 32px;
+  color: #151515;
 }
 .container-fluid {
   width: 100%;
@@ -10659,4 +10656,12 @@ input[type="number"] {
   padding-left: 18px !important;
   padding-right: 18px !important;
 }
+.count-down #demo {
+  font-size: 36px;
+}
+}
+@media screen and (max-width: 321px) {
+  .count-down #demo {
+    font-size: 18px;
+  }
 }
