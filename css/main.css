@@ -10634,7 +10634,17 @@ input[type="number"] {
 }
 #prog-vote .vote-details {
   grid-template-columns: 2fr 1fr;
-
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.social img {
+  width: 40px;
+  height: 40px;
 }
 @media screen and (max-width: 991px) {
   .how-vote .vote-details {
