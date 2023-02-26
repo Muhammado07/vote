@@ -10597,18 +10597,23 @@ input[type="number"] {
   margin-bottom: 40px;
 }
 .voty-now {
-  background: #fff;
-  color: #115C83;
+  background: #0c4a70 !important;
+  color: #fff;
   border: none;
   text-align: center;
   margin: 0 auto;
 }
-.voty-now:hover {
-  background: #fff;
-  color: #115C83;
+.voty-now:hover,.voty-now:active,.voty-now:visited {
+  background: #0c4a70 !important;
+  color: #fff !important;
 }
 .vooty {
   justify-content: center !important;
+  padding-top: 20px !important;
+}
+.votty {
+  justify-content: flex-start !important;
+  margin-top: 20px !important;
 }
 .vooty .justify-content-lg-end{
   justify-content: center !important;
@@ -10645,6 +10650,9 @@ input[type="number"] {
 .social img {
   width: 40px;
   height: 40px;
+}
+.portfolio-section {
+  padding-top: 0.5rem !important;
 }
 @media screen and (max-width: 991px) {
   .how-vote .vote-details {
