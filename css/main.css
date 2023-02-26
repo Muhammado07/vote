@@ -10620,11 +10620,28 @@ input[type="number"] {
 .vooty .justify-content-lg-end{
   justify-content: center !important;
 }
+.main-menu li:first-child {
+  background: #fff !important;
+  color: #0c4a70;
+  border-radius: 10px;
+}
 .voting {
   color: #20BFC9;
   text-decoration: underline;
   font-weight: bold;
   padding-right: 3px;
+}
+.votyy-now  {
+  background: #fff !important;
+  color: #0c4a70;
+  border: none;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.votyy-now:hover,.votyy-now:active,.votyy-now:visited {
+  background: #fff !important;
+  color: #0c4a70 !important;
 }
 .specy {
   padding-top: 0 !important;
