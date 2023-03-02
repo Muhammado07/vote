@@ -10657,7 +10657,9 @@ input[type="number"] {
   color: #151515 !important;
 }
 #prog-vote .vote-details {
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
 }
 .social {
   display: flex;
@@ -10672,6 +10674,10 @@ input[type="number"] {
 }
 .portfolio-section {
   padding-top: 0.5rem !important;
+}
+.how-vote .how-img iframe {
+  width: 100%;
+  height: 500px;
 }
 @media screen and (max-width: 991px) {
   .how-vote .vote-details {
@@ -10717,6 +10723,10 @@ input[type="number"] {
 }
 #prog-vote .vote-details {
   grid-template-columns: 1fr;
+}
+.how-vote .how-img iframe {
+  width: 100%;
+  height: 200px;
 }
 }
 @media screen and (max-width: 321px) {
